@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/codemaster138/typescript-boilerplate",
   "author": "John Jakob \"Jake\" Sarjeant <jakesarjeant13@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "enquirer": "^2.3.6",
+    "execa": "^5.0.0",
+    "ncp": "^2.0.0",
+    "npmview": "^0.0.4",
+    "ora": "^5.2.0"
+  }
 }
