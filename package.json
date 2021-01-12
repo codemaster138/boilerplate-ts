@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Create A Boilerplate TypeScript App",
   "main": "index.js",
-  "repository": "https://github.com/codemaster138/typescript-boilerplate",
+  "repository": "https://github.com/codemaster138/boilerplate-ts",
+  "bin": {
+    "create-boilerplate-ts": "node ."
+  },
   "author": "John Jakob \"Jake\" Sarjeant <jakesarjeant13@gmail.com>",
   "license": "MIT",
   "dependencies": {
