@@ -87,7 +87,7 @@ function ncpPromise(source, destination) {
     main: "dist/index.js",
     scripts: {
       build: "tsc",
-      dev: 'nodemon -e ts --exec "npm run build"',
+      dev: 'nodemon -e ts --exec "npm run build && node ."',
       prepublish: `${package_manager}${
         package_manager === "npm" ? " run" : ""
       } build`,
