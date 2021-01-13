@@ -1,11 +1,11 @@
 {
   "name": "create-boilerplate-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create A Boilerplate TypeScript App",
   "main": "index.js",
   "repository": "https://github.com/codemaster138/boilerplate-ts",
   "bin": {
-    "create-boilerplate-ts": "node ."
+    "create-boilerplate-ts": "./index.js"
   },
   "author": "John Jakob \"Jake\" Sarjeant <jakesarjeant13@gmail.com>",
   "license": "MIT",
